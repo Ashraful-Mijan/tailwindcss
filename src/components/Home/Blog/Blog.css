@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+h2:after {
+    display: block;
+    top: -.9rem;
+    width: 90%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: hsla(0,0%,62%,.2);
+    content: '';
+}
+h2 span, h2:after {
+    position: relative;
+}
+
+h2 span {
+    z-index: 1;
+    padding: 0 1rem;
+    background: white;
+}
